@@ -1,4 +1,4 @@
-import { FormEvent, useState } from 'react'
+import { FormEvent, SetStateAction, useState } from 'react'
 
 import { form, input, button } from './styles'
 

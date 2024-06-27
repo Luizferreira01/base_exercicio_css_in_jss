@@ -26,7 +26,7 @@ export const FormContainer = styled.div`
   color: ${(props) => props.theme.textColor};
 `
 
-export const Title =styled.h2`
+export const Title = styled.h2`
   font-family: Gloock, serif;
   font-size: 48px;
 `

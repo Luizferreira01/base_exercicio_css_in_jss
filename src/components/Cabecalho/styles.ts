@@ -5,6 +5,4 @@ export const Header = styled.header`
   color: ${(props) => props.theme.corPrincipal};
   text-aling: center;
   padding: 24px 0;
-
 `
-
