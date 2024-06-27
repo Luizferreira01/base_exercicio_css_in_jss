@@ -1,9 +1,11 @@
 import { Header } from './styles'
 
-const Cabecalho = () => (
-  <header>
-    <h1>EBAC Jobs</h1>
-  </header>
-)
+const Cabecalho = () => {
+  return (
+    <Header>
+      <h1>EBAC Jobs</h1>
+    </Header>
+  )
+}
 
 export default Cabecalho

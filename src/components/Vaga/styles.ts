@@ -9,7 +9,7 @@ export const Card = styled.li`
   border-radius: 8px;
 
   $:hover {
-    background-color ${(props) => props.theme.corPrincipal};
+    background-color: ${(props) => props.theme.corPrincipal};
     color: ${(props) => props.theme.corSecundaria};
   }
 `
@@ -30,7 +30,7 @@ export const CardLink = styled.a`
   font-weight: bold;
   font-size: 14px;
   border-radius: 8px;
-  text-aling: center;
+  text-align: center;
 
   &:hover {
     border-color: ${(props) => props.theme.corPrincipal};

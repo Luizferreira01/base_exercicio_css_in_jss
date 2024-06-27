@@ -14,15 +14,15 @@ const Vaga = (props: Props) => (
   <Card>
     <CardTitle>{props.titulo}</CardTitle>
     <ul>
-      <li>localizacao: {props.localizacao}</li>
-      <li>senioridade: {props.nivel}</li>
-      <li>tipo de contratacao: {props.modalidade}</li>
+      <li>Localizacao: {props.localizacao}</li>
+      <li>Senioridade: {props.nivel}</li>
+      <li>Tipo de contratacao: {props.modalidade}</li>
       <li>
-        salario: {props.salarioMin} - {props.salarioMax}
+        Salário: {props.salarioMin} - {props.salarioMax}
       </li>
-      <li>requisitos: {props.requisitos.join(', ')}</li>
+      <li>Requisitos: {props.requisitos.join(', ')}</li>
     </ul>
-    <CardLink href="#">ver detalhes e candidatar-se</CardLink>
+    <CardLink href="#">Ver detalhes e candidatar-se</CardLink>
   </Card>
 )
 

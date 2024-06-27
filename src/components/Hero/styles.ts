@@ -7,14 +7,14 @@ export const Form = styled.form`
   background-size: cover;
   position: relative;
   display: flex;
-  aling-items: center;
+  align-items: center;
 
   &:before {
     position: absolute;
-    top: 0
-    left: 0
-    width: 100%
-    height: 100%
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-color: ${(props) => props.theme.corPrincipal};
     content: '';
     opacity: 0.7;

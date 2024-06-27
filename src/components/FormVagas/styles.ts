@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const form = styled.form`
+export const Form = styled.form`
   display: grid;
   grid-template-columns: 1fr auto;
   background-color: ${(props) => props.theme.corSecundaria};
@@ -9,12 +9,12 @@ export const form = styled.form`
   margin-top: 40px;
 `
 
-export const input = styled.input`
+export const Input = styled.input`
   padding: 0 16px;
   outline-color: ${(props) => props.theme.corPrincipal};
 `
 
-export const button = styled.button`
+export const Button = styled.button`
   background-color: ${(props) => props.theme.corPrincipal};
   border: 1px solid ${(props) => props.theme.corPrincipal};
   height: 40px;

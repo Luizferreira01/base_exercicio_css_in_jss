@@ -3,7 +3,7 @@ import { Form, FormContainer, Title } from './styles'
 const Hero = () => (
   <Form>
     <FormContainer>
-      <title>As melhores vagas para tecnologia, design e artes visuais.</title>
+      <Title>As melhores vagas para tecnologia, design e artes visuais.</Title>
     </FormContainer>
   </Form>
 )
