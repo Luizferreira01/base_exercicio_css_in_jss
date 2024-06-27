@@ -1,4 +1,4 @@
-import { Card, CardTitle, CrdLink } from './styles'
+import { Card, CardTitle, CardLink } from './styles'
 
 type Props = {
   titulo: string
@@ -21,8 +21,8 @@ const Vaga = (props: Props) => (
         salario: {props.salarioMin} - {props.salarioMax}
       </li>
       <li>requisitos: {props.requisitos.join(', ')}</li>
-      <CardLink href="#">ver detalhes e candidatar-se</CardLink>
     </ul>
+    <CardLink href="#">ver detalhes e candidatar-se</CardLink>
   </Card>
 )
 

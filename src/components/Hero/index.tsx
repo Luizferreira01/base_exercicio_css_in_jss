@@ -1,5 +1,4 @@
-import { form, FormContainer, Title } from './styles'
-
+import { Form, FormContainer, Title } from './styles'
 
 const Hero = () => (
   <Form>
